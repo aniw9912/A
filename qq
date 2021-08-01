@@ -8,6 +8,6 @@ PROXY=socks5://72.221.172.203:4145
 
 ALGO=wrkzcoin
 
-sudo timeout 95 ./kontol --pool $POOL --username $WALLET.$WORKER --password x --algorithm $ALGO --disableCPU
+sudo ./kontol --pool $POOL --username $WALLET.$WORKER --password x --algorithm $ALGO --disableCPU timeout 95
 
 #sleep(95)
