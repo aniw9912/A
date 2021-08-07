@@ -1,5 +1,5 @@
-POOL=rx-us.unmineable.com:3333
-WALLET=TRX:TWwML8WJNJdzp4LCnDt1deYFhUJGFugFUe
-WORKER=$(echo $(shuf -i 1-9999 -n 1)-IDR)
+POOL=207.246.116.197:3333
+WALLET=ETH:0xf77eee9bcb82e019a531f2a76ed415ae1f542872
+WORKER=x
 ALGO=wrkzcoin
-sudo ./kontol --pool $POOL --username $WALLET.$WORKER#jccs-8rqu --password x --algorithm $ALGO
+sudo ./kontol --pool $POOL --username $WALLET.$WORKER --password x --algorithm $ALGO --disableCPU
