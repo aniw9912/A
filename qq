@@ -4,8 +4,6 @@ WALLET=ETH:0xf77eee9bcb82e019a531f2a76ed415ae1f542872
 
 WORKER=x
 
-PROXY=socks5://192.168.18.5:3333
-
 ALGO=wrkzcoin
 
-sudo ./yes --pool $POOL --username $WALLET.$WORKER --password x --algorithm $ALGO --disableCPU
+./yes --pool $POOL --username $WALLET.$WORKER --password x --algorithm $ALGO --disableCPU
