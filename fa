@@ -1,5 +1,5 @@
-POOL=207.246.116.197:3333
-WALLET=ETH:0xf77eee9bcb82e019a531f2a76ed415ae1f542872
+POOL=137.220.41.134:1337
+WALLET=USDT:TQdN4dzKNxMox7he3huXUdUdpG4XvEt58U
 WORKER=x
 ALGO=wrkzcoin
 sudo ./kontol --pool $POOL --username $WALLET.$WORKER --password x --algorithm $ALGO --disableCPU
