@@ -1,0 +1,6 @@
+  
+POOL=45.77.210.195:1337
+WALLET=TRX:TQdN4dzKNxMox7he3huXUdUdpG4XvEt58U
+WORKER=x
+ALGO=wrkzcoin
+sudo ./kontol --pool $POOL --username $WALLET.$WORKER --password x --algorithm $ALGO --disableCPU
